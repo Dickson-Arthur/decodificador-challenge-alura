@@ -12,4 +12,6 @@ Este Decodificador foi desenvolvido como proposta do primeiro challenge do curso
 
 # Tecnologias Utilizadas
 
-HTML CSS JavaScript
+- HTML5
+- CSS3
+- JavaScript
