@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/letter-d.png" type="image/x-icon">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="assets/letter-d.png" alt="logo">
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">Sobre mim</a>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <section class="decodificador">
+            <h1>Bem-vindo(a) ao decodificador de texto!</h1>
+            <div class="container-input">
+                <textarea class="input-texto" id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+            </div>
+            <div class="aviso">
+                <img src="assets/ponto-de-exclamacao.png.png" alt="icon">
+                <p>Apenas letras minúsculas e sem acento!</p>
+            </div>
+            <div class="buttons">
+                <button onclick="criptografar()" class="button-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="button-descriptografar">Descriptografar</button>
+            </div>
+        </section>
+        <section class="output" id="output">
+            <img src="assets/1.png" alt="Imagem da tela incial">
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <h1>Copyright &copy; Dickson Arthur</h1>
+        <ul>Acesse minhas redes:
+            <li>
+                <a href="https://github.com/Dickson-Arthur" target="_blank">
+                    <img class="img-redes-sociais" src="assets/github.png" alt="Logo GitHub">
+                    GitHub
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/dicksonarthur/" target="_blank">
+                    <img class="img-redes-sociais" src="assets/linkedin.png" alt="Logo LinkedIn">
+                    LinkedIn
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/dicksonarthur/" target="_blank">
+                    <img class="img-redes-sociais" src="assets/instagram.png" alt="Logo Instagram">
+                    Instagram
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
