@@ -29,6 +29,9 @@ Este Decodificador foi desenvolvido como proposta do primeiro challenge do curso
 
 - Você pode repetir os passos anteriores de criptografar/descriptografar, ou enviar a mensagem criptografada para outra pessoa, junto com o link da aplicação, para que ela possa descriptografar e ver o que você mandou!
 
+# Acessse a aplicação através do link:
+- https://decodificador-challenge-alura-henna.vercel.app/
+
 # Tecnologias Utilizadas
 
 - HTML5
