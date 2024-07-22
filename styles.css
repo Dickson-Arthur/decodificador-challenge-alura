@@ -195,7 +195,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 30rem;
+    min-height: 45rem;
     margin: 1% 15%;
     padding: 3%;
     gap: 2rem;
@@ -211,6 +211,14 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     gap: 1.5rem;
+}
+
+.sobre-conteudo h1 {
+    text-align: center;
+}
+
+.sobre-conteudo p {
+    font-size: 1.4rem;
 }
 
 
@@ -286,6 +294,11 @@ body {
 
     .sobre {
         flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .sobre-conteudo p {
+        font-size: 1.2rem;
     }
 }
 
